@@ -1,2 +1,175 @@
-# bbq
-군산
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청암스테이 개업식 초대장</title>
+    <style>
+        /* 기본 스타일 리셋 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f9fa;
+            color: #333333;
+            line-height: 1.8;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .invitation-card {
+            background-color: #ffffff;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        /* 상단 타이틀 */
+        .header {
+            margin-bottom: 35px;
+        }
+        .header .subtitle {
+            font-size: 14px;
+            color: #666666;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .header .title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #111111;
+        }
+
+        /* 구분선 */
+        .divider {
+            width: 40px;
+            height: 1px;
+            background-color: #333333;
+            margin: 0 auto 35px auto;
+        }
+
+        /* 본문 내용 */
+        .content {
+            font-size: 15px;
+            color: #444444;
+            margin-bottom: 40px;
+            word-break: keep-all;
+        }
+        .content p {
+            margin-bottom: 15px;
+        }
+        .content .highlight {
+            font-weight: 600;
+            color: #111111;
+        }
+        .content .sender {
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #222222;
+        }
+
+        /* 상세 정보 섹션 */
+        .info-section {
+            background-color: #fafafa;
+            border-radius: 8px;
+            padding: 25px 20px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .info-row {
+            margin-bottom: 15px;
+        }
+        .info-row:last-child {
+            margin-bottom: 0;
+        }
+        .info-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #888888;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .info-value {
+            font-size: 15px;
+            color: #222222;
+            font-weight: 500;
+        }
+
+        /* 버튼 스타일 */
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+        .btn-primary {
+            background-color: #111111;
+            color: #ffffff;
+        }
+        .btn-primary:hover {
+            background-color: #333333;
+        }
+        .btn-secondary {
+            background-color: #eaeaea;
+            color: #333333;
+        }
+        .btn-secondary:hover {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <div class="header">
+            <div class="subtitle">INVITATION</div>
+            <div class="title">청암스테이 개업식</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content">
+            <p>안녕하세요, 염민호입니다.</p>
+            <p>푸른 자연을 품은 청암산 자락에,<br>지금껏 어디에서도 볼 수 없었던 완전히 새로운 휴식 공간 <span class="highlight">‘청암스테이’</span>를 선보이게 되었습니다.</p>
+            <p>정성껏 준비한 아늑한 숙박 시설과<br>자연을 벗 삼아 여유롭게 즐기는 야외 바베큐 공간까지,<br>발길 닿는 곳마다 설렘을 담아 정성껏 가꾸었습니다.</p>
+            <p>새로운 시작을 내딛는 뜻깊은 자리에 귀한 걸음 하시어,<br>공간을 빛내주시고 아낌없는 조언과 냉철한 격려의 한 말씀을 들려주시면 더없는 기쁨과 큰 힘이 되겠습니다.</p>
+            <p>바쁘시더라도 부디 참석하셔서 자리를 빛내주시기 바랍니다.</p>
+            <div class="sender">염민호 배상</div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-row">
+                <span class="info-label">일시</span>
+                <span class="info-value">2026년 6월 12일 (금요일) 저녁 7:00</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">장소</span>
+                <span class="info-value">군산시 옥산면 대려2길 16 (청암스테이)</span>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <a href="https://map.kakao.com/?q=%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EC%98%A5%EC%82%B0%EB%A9%B4%20%EB%8C%80%EB%A0%A42%EA%B8%B8%2016" target="_blank" class="btn btn-primary">카카오맵 지도 보기</a>
+            <a href="https://photos.app.goo.gl/46PjRb7fWkxaw4CY6" target="_blank" class="btn btn-secondary">청암스테이 스케치 사진 보기</a>
+        </div>
+    </div>
+
+</body>
+</html>
